@@ -37,3 +37,6 @@ val graphWithCycle: Graph[String] = Map(
 detectCycle(graphWithCycle) 
 // true
 ```
+
+### Credits ###
+* [Tushar Roy](https://www.educative.io/page/11000001/60001)
