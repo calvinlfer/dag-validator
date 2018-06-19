@@ -3,7 +3,7 @@ package com.experiments.calvin
 import com.experiments.calvin.dag.DagValidator
 
 object Main extends App with DagValidator {
-  val graphWithCycle: Graph[String] = Map(
+  val graphWithCycle: Graph[String] = Graph(
     "A" -> List("B"),
     "B" -> List("C"),
     "C" -> List("E"),
